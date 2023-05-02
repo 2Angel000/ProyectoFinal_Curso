@@ -1,0 +1,35 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.button {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.508), 0 0 5px rgba(255, 255, 255, 1),
+    0 0 10px rgb(0, 0, 0), 0 0 20px #0a3a98, 0 0 50px #0a3a98, 0 0 60px #00ffff,
+    0 0 80px #0a3a98;
+}
+
+.borde {
+  border: 2px solid white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja{
+    width: 30%;
+    background-color: goldenrod;
+    font-size: 2em;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+}
